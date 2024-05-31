@@ -14,15 +14,12 @@ for (let i = 0; i < buttonsEl.length; i++) {
     }
   });
 }
-
 function clearResult() {
   inputFieldEl.value = "";
 }
-
 function calculateResult() {
   inputFieldEl.value = eval(inputFieldEl.value);
 }
-
 function appendValue(buttonValue) {
   inputFieldEl.value += buttonValue;
   //   inputFieldEl.value = inputFieldEl.value + buttonValue;
